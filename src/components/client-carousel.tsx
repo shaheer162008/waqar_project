@@ -16,63 +16,118 @@ const Clientcarousel = () => {
     {
       id: 1,
       name: "Acme Inc",
-      logo:"https://github.com/shadcn.png",
+      logo:"/aman logo.png",
       fallbackText: "AC",
     },
     {
       id: 2,
       name: "Globex Corpo",
-      logo:"https://github.com/shadcn.png",
+      logo:"/AMIR.png",
       fallbackText: "GC",
     },
     {
       id: 3,
       name: "Stark Indust",
-      logo:"https://github.com/shadcn.png",
+      logo:"/APH logo.png",
       fallbackText: "SI",
     },
     {
       id: 4,
       name: "Wayne Enter",
-      logo:"https://github.com/shadcn.png",
+      logo:"/Backup_of_Untitled-1logo.png",
       fallbackText: "WE",
     },
     {
       id: 5,
       name: "Umbrella Cor",
-      logo:"https://github.com/shadcn.png",
+      logo:"BIS.png",
       fallbackText: "UC",
     },
     {
       id: 6,
       name: "Oscorp",
-      logo:"https://github.com/shadcn.png",
+      logo:"/cellcinal.png",
       fallbackText: "OS",
     },
     {
       id: 7,
       name: "Cyberdyne",
-      logo:"https://github.com/shadcn.png",
+      logo:"/CHINATRABS.png",
       fallbackText: "CY",
     },
     {
       id: 8,
       name: "Initech",
-      logo:"https://github.com/shadcn.png",
+      logo:"/COPHC.png",
       fallbackText: "IN",
     },
     {
       id: 9,
       name: "Hooli",
-      logo:"https://github.com/shadcn.png",
+      logo:"/GITL.png",
       fallbackText: "HO",
     },
     {
       id: 10,
       name: "Pied Piper",
-      logo:"https://github.com/shadcn.png",
+      logo:"/GMSL.png",
       fallbackText: "PP",
     },
+    {
+      id: 11,
+      name: "Pied Piper",
+      logo:"/hufa.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 12,
+      name: "Pied Piper",
+      logo:"/i log.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 13,
+      name: "Pied Piper",
+      logo:"/IPS.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 14,
+      name: "Pied Piper",
+      logo:"/ITRANS.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 15,
+      name: "Pied Piper",
+      logo:"/namal.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 16,
+      name: "Pied Piper",
+      logo:"/sati tech.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 17,
+      name: "Pied Piper",
+      logo:"/SBI.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 18,
+      name: "Pied Piper",
+      logo:"/LOGO AMANULLAH.png",
+      fallbackText: "PP",
+    },
+    {
+      id: 19,
+      name: "Pied Piper",
+      logo:"/easy marketing letter head1.png",
+      fallbackText: "PP",
+    },
+
   ];
 
   // Duplicate the clients array to create seamless looping
@@ -83,7 +138,7 @@ const Clientcarousel = () => {
       <div className="container mx-auto px-4">
         <Heading className="text-center pb-4">Our Clients</Heading>
         
-        <div className="relative w-full">
+        <div className="relative w-full mt-8 ">
           {/* Marquee container */}
           <div className="relative w-full overflow-hidden">
             {/* Marquee content - will be duplicated for seamless looping */}
@@ -103,9 +158,6 @@ const Clientcarousel = () => {
                       {client.fallbackText}
                     </AvatarFallback>
                   </Avatar>
-                  <p className="text-center font-medium text-gray-700 mt-2 whitespace-normal">
-                    {client.name}
-                  </p>
                 </div>
               ))}
             </div>

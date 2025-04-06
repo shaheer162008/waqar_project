@@ -17,7 +17,7 @@ export default function ContactPage() {
     <>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
-        <div className="space-y-6 px-6 md:px-12 h-full">
+        <div className="space-y-6 px-6 md:px-12 h-full pt-2">
           <LighterLogo className="text-gray-300">reach us</LighterLogo>
           <h2 className="text-4xl font-extrabold">Get in Touch with Us</h2>
           <ul className=" space-y-8 text-lg flex flex-col capitalize pt-4">

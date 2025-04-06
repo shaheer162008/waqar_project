@@ -72,11 +72,11 @@ export const services = [
     },
     {
       name:"Our Professionals",
-      link:"/team",
+      link:"/our-professionals",
     },
     {
       name:"Careers",
-      link:"/contact",
+      link:"/careers",
     },
     {
       name:"Contact",

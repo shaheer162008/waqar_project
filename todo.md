@@ -1,9 +1,5 @@
 # todo 1:
 **Pages**:
-1. create and design who we are page
-2. our professional page
-3. career page
-4. contact us with form.
 5. each page for practice area
 6. create a law sact.. pages just like ahmed and qazi.
 

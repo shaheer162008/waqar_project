@@ -4,6 +4,7 @@ import { Carousel, CarouselContent, CarouselItem } from './ui/carousel';
 import Image from "next/legacy/image";
 import { Button } from './ui/button';
 import { MoveRight } from 'lucide-react';
+import Link from 'next/link';
 
 
 const CarousalSection = () => {
@@ -67,8 +68,10 @@ const CarousalSection = () => {
             specialized lawyers with high legal acumen.
           </p>
           <div>
-            <Button className="border-2 border-black capitalize px-4 hover:bg-white hover:text-blue-500 hover:border-blue-500 flex items-center justify-center rounded-none bg-blue-500 py-6">
+            <Button  className="border-2 border-black capitalize px-4 hover:bg-white hover:text-blue-500 hover:border-blue-500 flex items-center justify-center rounded-none bg-blue-500 py-6">
+              <Link href={'/#contact-us'} className='flex gap-4'>
               get free assistance <MoveRight className="mt-1" />
+              </Link>
             </Button>
           </div>
         </div>

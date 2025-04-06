@@ -18,11 +18,11 @@ const NavbarVarient = () => {
       </div>
       <div>
         <ul className="capitalize lg:flex md:gap-4 hidden text-sm text-white">
-          <li>who we are</li>
+        <li><Link href="/firm-overview">who we are</Link></li>
           <li>practice areas</li>
-          <li>our professionals</li>
-          <li>careers</li>
-          <li>contact</li>
+          <li><Link href={'/our-professionals'}>our professionals</Link></li>
+          <li><Link href={'/careers'}>careers</Link></li>
+          <li><Link href={'/contact'}>contact</Link></li>
           <li>language</li>
         </ul>
         <SideNav />

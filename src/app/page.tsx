@@ -123,7 +123,7 @@ const Page = () => {
       <section className="py-16 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
         <Clientcarousel />
       </section>
-      <section className="py-16 px-4 md:px-8 lg:px-16 bg-blue-500 text-white ">
+      <section id="contact-us" className="py-16 px-4 md:px-8 lg:px-16 bg-blue-500 text-white ">
         <ContactUs />
       </section>
     </main>
