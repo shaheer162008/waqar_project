@@ -208,17 +208,14 @@ export default function FirmOverviewPage() {
             {
               id: "Firm Overview",
               title: "Firm Overview",
-              text: "Overview of our expertise in employment and labour law.",
             },
             {
               id: "Client Centered Approach",
               title: "Client Centered Approach",
-              text: "How we prioritize integrity, quality, and professionalism.",
             },
             {
               id: "Culture and Core Values",
               title: "Culture and Core Values",
-              text: "The values driving our commitment to clients.",
             },
           ]}
         />

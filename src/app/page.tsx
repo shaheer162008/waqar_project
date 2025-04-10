@@ -8,9 +8,14 @@ import LighterLogo from "@/components/lighter-logo";
 import LighterText from "@/components/lighter-text";
 import CarousalSection from "@/components/CarousalSection";
 import { services } from "../../constants";
+import { Button } from "@/components/ui/button";
+import TawkMessenger from "@/components/tawk-messenger-react";
+import Navbar from "@/components/navbar";
 
 const Page = () => {
   return (
+    <>
+    <Navbar/>
     <main>
       <section className="relative h-[96vh] w-full overflow-hidden flex items-center">
         <CarousalSection/>
@@ -65,7 +70,7 @@ const Page = () => {
         <Heading className="text-center pb-4">Our Services</Heading>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Link key={index} href={"/"}>
+            <Link key={index} href={service.link}>
               <Card className="relative rounded-none overflow-hidden shadow-lg hover:shadow-2xl pt-0 transition duration-300 transform hover:scale-105 cursor-pointer">
                 <div className="relative w-full h-64">
                   <Image
@@ -82,9 +87,9 @@ const Page = () => {
                     {service.title}
                   </h3>
                   <div className="mt-4 text-black font-semibold ">
-                    <Link href={"/"} className="border py-2 px-4 border-black">
+                    <Button className="border py-2 px-4 border-black bg-transparent text-black rounded-none hover:bg-transparent cursor-pointer">
                       Read More →
-                    </Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
@@ -126,7 +131,9 @@ const Page = () => {
       <section id="contact-us" className="py-16 px-4 md:px-8 lg:px-16 bg-blue-500 text-white ">
         <ContactUs />
       </section>
+            <TawkMessenger/>
     </main>
+    </>
   );
 };
 

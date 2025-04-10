@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
@@ -35,8 +35,8 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <Navbar/>
             {children}
+            <Footer/>
           </ThemeProvider>
       </body>
     </html>
