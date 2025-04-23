@@ -12,6 +12,12 @@ import { Button } from "@/components/ui/button";
 import TawkMessenger from "@/components/tawk-messenger-react";
 import Navbar from "@/components/navbar";
 
+export const metadata: Metadata = {
+  title: "Top International Law Firm in Karachi | Sayyid & Shaykh",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
+
 const Page = () => {
   return (
     <>
@@ -57,7 +63,7 @@ const Page = () => {
           {/* Right Image */}
           <div className="w-full md:w-1/2 relative h-64 md:h-auto">
             <Image
-              src="/129364.jpg"
+              src="/129364.webp"
               alt="Legal Consultation"
               layout="fill"
               objectFit="cover"
@@ -100,7 +106,7 @@ const Page = () => {
       <section className="bg-black/100 py-16 px-6 md:px-16 text-white relative">
         <div className="absolute inset-0">
           <Image
-            src="/two-successful-businessmen-discussing-business.jpg" // Replace with your actual background image
+            src="/two-successful-businessmen-discussing-business.webp" // Replace with your actual background image
             alt="Banner Background"
             layout="fill"
             objectFit="cover"
@@ -138,3 +144,4 @@ const Page = () => {
 };
 
 export default Page;
+

@@ -3,6 +3,11 @@ import Heading from "@/components/heading";
 import LighterText from "@/components/lighter-text";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "Careers at Sayyid & Shaykh | Join Our Legal Team",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
 const page = () => {
   return (
     <div className="bg-gray-100 min-h-screen p-6">

@@ -21,9 +21,9 @@ const CarousalSection = () => {
 
 
     const imgPath = [
-        "closeup-shot-person-writing-book-with-gavel-table.jpg",
-        "grey-marble-column-details-building.jpg",
-        "still-life-with-scales-justice.jpg",
+        "closeup-shot-person-writing-book-with-gavel-table.webp",
+        "grey-marble-column-details-building.webp",
+        "still-life-with-scales-justice.webp",
       ];
 
   return (

@@ -4,6 +4,11 @@ import LighterText from "@/components/lighter-text";
 import { SectionTracker } from "@/components/SectionTracker";
 import { CircleCheckBig } from "lucide-react";
 
+export const metadata: Metadata = {
+  title: "About Us | Sayyid & Shaykh Advocates & Consultants",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
 export default function FirmOverviewPage() {
   return (
     <div className="bg-gray-100 min-h-screen p-6">

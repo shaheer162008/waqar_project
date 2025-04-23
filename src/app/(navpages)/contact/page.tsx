@@ -2,6 +2,11 @@ import { Breadcrumb } from '@/components/Breadcrumb'
 import ContactPage from '@/components/contact-us'
 import React from 'react'
 
+export const metadata: Metadata = {
+  title: "Contact Us | Sayyid & Shaykh",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
 const page = () => {
   return (
     <>

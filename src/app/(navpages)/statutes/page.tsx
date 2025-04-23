@@ -6,6 +6,11 @@ import React from "react";
 import { statuteCategories } from "../../../../constants";
 import { FileText } from "lucide-react";
 
+export const metadata: Metadata = {
+  title: "Legal Statutes & Regulations in Pakistan | Sayyid & Shaykh",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
 const page = () => {
   return (
     <>

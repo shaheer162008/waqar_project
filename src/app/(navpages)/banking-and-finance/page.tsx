@@ -5,6 +5,11 @@ import { SectionTracker } from "@/components/SectionTracker";
 import { CircleCheckBig } from "lucide-react";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "Banking & Finance Legal Services | Sayyid & Shaykh",
+  description: "Looking for  services in Pakistan or globally? Sayyid & Shaykh Advocates provide expert legal solutions in 2025."
+};
+
 const page = () => {
   return (
     <div className="bg-gray-100 min-h-screen p-6">
